@@ -1,3 +1,6 @@
+if (System._nodeRequire)
+  return module.exports = require('http');
+
 var http = module.exports;
 var EventEmitter = require('events').EventEmitter;
 var Request = require('./lib/request');

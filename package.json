@@ -12,6 +12,7 @@
   "scripts": {
     "test": "tape test/*.js"
   },
+  "registry": "npm",
   "dependencies": {
     "Base64": "~0.2.0",
     "inherits": "~2.0.1"
