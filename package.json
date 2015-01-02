@@ -37,5 +37,6 @@
     "email": "mail@substack.net",
     "url": "http://substack.net"
   },
-  "license": "MIT/X11"
+  "license": "MIT/X11",
+  "ignore": ["test", "example"]
 }
