@@ -1,5 +1,5 @@
 if (System._nodeRequire)
-  return module.exports = require('http');
+  return module.exports = System._nodeRequire('http');
 
 var http = module.exports;
 var EventEmitter = require('events').EventEmitter;
